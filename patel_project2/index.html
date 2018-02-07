@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="jquery website">
+  	<meta name="author" content="Janaki Patel">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>IST WEBSITE | JANAKI </title>
+	<!-- IST logo placed next to the title -->
+	<link rel="icon" href="images/ritImg.ico"/>
+
+	<!-- Google Font & Font Awesome Links -->
+
+	<link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+	<!-- Oleo Script: Cursive -->
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+    <!-- Open Sans:Semi bold italics (heading) | Roboto: Regular(sub-heading) -->
+    <link href="https://fonts.googleapis.com/css?family=Open +Sans:700,700i|Roboto:400,400i" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+
+    <!-- CSS reference -->
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <!-- css for magnific-popup -->
+    <link rel="stylesheet" href="styles/magnific-popup.css">
+    <!-- Font Awesome Icons reference -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- jquery reference(downloaded) -->
+    <script type="text/javascript" src="plugins/jquery-3.2.1.min.js"></script>
+    <!-- broswer detection plugin -->
+     <script type="text/javascript" src="plugins/jquery.browser.js"></script>
+    <!-- Nav sticky plugin -->
+    <script type="text/javascript" src="plugins/jquery.sticky.js" ></script>
+    <!-- animate navigation bar on scroll -->
+    <script type="text/javascript" src="plugins/scrollreveal.js"></script>
+
+	<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script> <!-- Card Flip Plugin -->
+    <script src="plugins/jquery.flip.js"></script> <!-- Plugin for flipping cards -->
+
+	<script type="text/javascript" src="plugins/jquery.tablesorter.js"></script> <!-- Tablesorter Plugin Link -->
+	<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script> <!-- Scroll Reveal Plugin Link -->
+	<script src="plugins/scrollreveal.js"></script> <!-- Scroll Reveal Plugin Link -->
+	<script src="plugins/jquery.anchorScroll.js"></script> <!-- Anchor Scroll Plugin Link -->
+	<script src="plugins/jquery.stickytableheaders.min.js"></script> <!-- Sticky Table Header Plugin Link -->
+	<script src="plugins/jquery.magnific-popup.js"></script> <!-- Dialog Popup Plugin Link -->
+	<script type="text/javascript" src="plugins/jquery.tabslet.min.js"></script> <!-- Tabs Plugin Link -->
+	<script src="plugins/readmore.min.js"></script> <!-- Read More Plugin Link -->
+
+    <!-- Script JS file -->
+	<script type="text/javascript" src="script.js"> </script> <!-- Script File Link -->
+      
+  </head>
+
+  <body>
+
+  	  <!-- topBar div onclick redirects to original R.I.T website -->
+       <header class="topBar">
+      		 <a class="a1" href="https://www.rit.edu/" target="_blank">R.I.T <span class="collegeTitle"> Rochester Institute of Technology</span></a>
+       </header>
+
+        <!-- Header with Image and Title -->
+	    <div class="titleHead">
+		    <h1 class="titleOuter"><span class="spanGrey">Information</span> <span class="spanOrange">Sciences </span> &amp; <span class="spanGrey">Technologies</span> @ <span class="spanBrown"> RIT </span></h1>
+		    <h2 class="subTitle">Scroll down to navigate</h2>
+		    <i class="fa fa-arrow-circle-down" style="color: #F36E21; font-size: 20px; margin-top: 25px;" aria-hidden="true" style="text-align: center; color: white; margin-top: 20px"></i>
+	    </div>
+  	
+	    <!-- navigation bar -->
+	    <div class="nav-sticky" role="primary">
+	    	<nav>
+	    		<ul class="ulNav">
+	    			<li class="liNav"><a href="#aboutDiv" class="nav-ref link-scroll">about</a></li>
+	    			<li class="liNav"><a href="#degreesDiv" class="nav-ref link-scroll">degrees</a></li>
+	    			<li class="liNav"><a href="#minorsDiv" class="nav-ref link-scroll">minors</a></li>
+	    			<li class="liNav"><a href="#employmentDiv" class="nav-ref link-scroll">employment</a></li>
+	    			<li class="liNav"><a href="#peopleDiv" class="nav-ref link-scroll">people</a></li>
+	    			<li class="liNav"><a href="#resourcesDiv" class="nav-ref link-scroll">resources</a></li>
+	    			<li class="liNav"><a href="#newsDiv" class="nav-ref link-scroll">news</a></li>
+	    			<li class="liNav"><a href="#contactDiv" class="nav-ref link-scroll">contact</a></li>
+	    		</ul>
+	    	</nav>
+	    </div>
+
+	    <!-- About Div Section -->
+	    <div id="aboutDiv">
+	    	
+
+	    </div>
+
+
+	    <!-- Degrees Div Section -->
+	    <div id="degreesDiv">
+	    	  <!-- Undergraduate degrees info here -->
+		      <h2 class='lightHeading' style="margin-top:10px;" >Our Undergraduate Degrees</h2>
+		      <div id="ug-grid">
+		      </div>
+		      <div class="moveCenter">
+	              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+	              <p class='darkCopy'>Click to find out more.</p> 
+	          </div>
+
+	         
+	          <!-- Graduate degrees info here -->
+		      <h2 class='lightHeading' style="margin-top:45px;">Our Graduate Degrees</h2>
+		      <div id="graduate-grid">
+	          </div>
+	          <div class="moveCenter">
+	              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+	              <p class='darkCopy'>Click to find out more.</p>
+	          </div>
+	          
+         </div>
+ 
+
+	    <!-- Minors Div Section -->
+	    <div id="minorsDiv">
+		      <h2 class='lightHeading'>Our Undergraduate Minors</h2>
+              <!-- pull info in minors grid  -->
+              <div id="minorsGrid">
+              	
+              </div>
+              <div class="moveCenter ">
+	              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+	              <p class='darkCopy'>Click to find out more.</p>
+              </div>
+		</div>
+
+
+	    <!-- Employment Div Section -->
+	    <div id="employmentDiv">
+	    	<div id="statisticsGrid">
+	    		
+	    	</div>
+	    </div>
+
+	     <!-- Map div  -->
+		<div id="mapDiv">
+		    <h2 class='lightHeading' style="text-align: center; color: white;">Where Our Students Work</h2>
+		    <!-- iFrame for displaying map-->
+		    <iframe src='https://ist.rit.edu/api/map/'> <p>Please check your browser it does not support iframes.</p>
+		    </iframe>
+	    </div>
+
+	    <!-- People Div Section -->
+	    <div id="peopleDiv">
+		    <h2 class='lightHeading'>People</h2>
+		    <br>
+		    <br>
+		    <div class="people-toggle">
+		      <h2 class='dark-subhead'><a href="#people" id="fac-link" class="selected">Faculty</a></h2>
+		      <h2 class='dark-subhead'><a href="#people" id="staff-link">Staff</a></h2>
+   			</div>
+
+   			<div class="moveCenter ">
+	              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+	              <p class='darkCopy' style="">Click to find out more about faculty/staff.</p>
+              </div>
+
+	   		<!-- Faculty Content Here -->
+		    <div id="faculty-grid">
+
+		    </div>
+
+		    <!-- Staff Content Here-->
+		    <div id="staff-grid">
+		      <div id="staff-grid-content">
+		      </div>
+		    </div>
+
+		    <!-- Research Div Section -->
+		    <div id="researchDiv">
+			      <h2 class='dark-subhead'>Faculty Research</h2>
+			      <div id="research-grid">
+			      </div>
+			      <h2 class='dark-subhead'>Research By Interest Area</h2>
+			      <div id="interest-grid">
+			      </div>
+		    </div>
+	    </div>
+
+
+			    <!-- Resources Section -->
+		<div id="resourcesDiv" class="tabs">
+		    <!-- Tab Navigation -->
+			    <ul id="tabs-ul">
+			        <li><a href="#study-abroad">Study Abroad</a></li>
+			        <li><a href="#student-services">Student Services</a></li>
+			        <li><a href="#tutors-and-lab-info">Tutors and Lab Info</a></li>
+			        <li><a href="#student-ambassadors">Student Ambassadors</a></li>
+			        <li><a href="#forms">Forms</a></li>
+			        <li><a href="#coopEnrollment">Co-Op Enrollment</a></li>
+			    </ul>
+
+			    <div id="study-abroad">
+			    </div>
+
+			    <div id="student-services">
+			    </div>
+
+			    <div id="tutors-and-lab-info">
+			    </div>
+
+			    <div id="student-ambassadors">
+			    </div>
+
+			    <div id="forms">
+			      <ul id="grad-forms">
+			      </ul>
+
+			      <ul id="undergrad-forms">
+			      </ul>
+			    </div>
+
+			    <div id="coopEnrollment">
+			    </div>
+		</div>
+
+	  <!-- News Section -->
+	  	<div id="newsDiv">
+		    <h2 class='lightHeading'>News</h2>
+		      <br>
+		    <br>
+		    <div class="people-toggle">
+		      <h2 class='dark-subhead'><a href="#news" id="year-link" class="selected">This Year</a></h2>
+		      <h2 class='dark-subhead'><a href="#news" id="older-link">Older</a></h2>
+		    </div>
+
+		    <div id="year-content">
+		    </div>
+		    <div id="older-content">
+		    </div>
+	 	</div>
+
+		  <!-- Contact + Footer Section -->
+		<div id="contactDiv">
+
+		    <div id="contact-form">
+		    </div>
+
+		    <div id="social">
+		    </div>
+
+		    <div id="quick-links">
+		      <h2 class='light-subhead'>Quick Links</h2>
+		    </div>
+
+		    </div>
+
+		 <!-- footer copyright -->
+		<div id="copyrightDiv">
+
+		</div>
+
+  </body>
+
+</html>
